@@ -9,15 +9,15 @@
     <meta name="author" content="">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="../js/jsondoc/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../js/jsondoc/handlebars-v2.0.0.js"></script>
-    <script type="text/javascript" src="../js/jsondoc/jlinq.js"></script>
-    <script type="text/javascript" src="../js/jsondoc/prettify.js"></script>
-    <script src="../js/jsondoc/bootstrap-button.js"></script>
+    <g:javascript src="../js/jsondoc/bootstrap.min.js" />
+    <g:javascript src="../js/jsondoc/handlebars-v2.0.0.js" />
+    <g:javascript src="../js/jsondoc/jlinq.js" />
+    <g:javascript src="../js/jsondoc/prettify.js" />
+    <g:javascript src="../js/jsondoc/bootstrap-button.js" />
 
     <!-- Le styles -->
-    <link href="../css/jsondoc/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/jsondoc/font-awesome.css" rel="stylesheet" >
+    <link href="${resource(dir: 'css/jsondoc', file: 'bootstrap.min.css')}" rel="stylesheet" >
+    <link href="${resource(dir: 'css/jsondoc', file: 'font-awesome.css')}" rel="stylesheet" >
     <style type="text/css">
     body {
         padding-top: 60px;
@@ -88,7 +88,7 @@
         text-shadow: 0 1px 0 #fff;
     }
     </style>
-    <link href="../css/jsondoc/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="${resource(dir: 'css/jsondoc', file: 'bootstrap-responsive.min.css')}" rel="stylesheet" >
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
